@@ -17,6 +17,14 @@ points, and generally display and analyze the resulting data.
 Latest Changes
 --------------
 
+### Changes in this version
+
+- Nanovna-F V2 valid data points add 151,201 options
+- customize the number of data points,At present, adaptation is only 
+  made on NanoVNA-F V2, other versions need to define the configurable 
+  maximum and minimum values in their respective "NanoVNAxx".py
+
+
 ### Changes in v0.3.8
 
 - Allow editing of bands above 2.4GHz
