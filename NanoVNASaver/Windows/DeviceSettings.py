@@ -220,6 +220,8 @@ class DeviceSettingsWindow(QtWidgets.QWidget):
     def updatecustomPoint(self,points_str: str):
         if self.custom_points_checkBox.isChecked():
                 #points_str = self.custom_points_Eidt.text()
+                if len(points_str) == 0:
+                    return
                 points = int(points_str)
                 if points < self.app.vna.sweep_points_min:
                     return 

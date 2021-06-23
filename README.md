@@ -19,6 +19,8 @@ Latest Changes
 
 ### Changes in this version
 
+- Fixed the crash caused by the backspace of the custom scan points edit box.
+
 - Nanovna-F V2 valid data points add 151,201 options
 - customize the number of data points,At present, adaptation is only 
   made on NanoVNA-F V2, other versions need to define the configurable 
